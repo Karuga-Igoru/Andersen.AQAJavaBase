@@ -17,7 +17,7 @@ public class Person {
         this.salary = salary;
         this.age = age;
     }
-
+    @Override
     public String toString() {
         return "Name: " + fullName +"\nPosition: " + position + "\nEmail: " +
                     email + "\nPhone: " + phone + "\nSalary: " + salary + "\nAge: " + age +"\n";
